@@ -1,0 +1,57 @@
+#firstslide{
+    background: linear-gradient(265.59deg, #02c0c2 0%, #164a9e 100%);
+}
+.equal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#sixthslide{
+    background: linear-gradient(265.59deg, #02c0c2 0%, #164a9e 100%);
+}
+#eighthslide{
+    background: linear-gradient(265.59deg, #027cc2 0%, #0c3d8a 100%);
+}
+.hgt{
+    max-height: vh;
+}
+.outline_border {
+    background-image: linear-gradient(135.74deg, #02C0C2 4.09%, #164A9E 98.04%);
+    border-radius: 10px;
+    padding: 1px;
+}
+#lastslide{
+    background: linear-gradient(265.59deg, #027cc2 0%, #0c3d8a 100%);
+}
+.footer a:link{
+    text-decoration: none;
+    color: white;
+}
+#tenthslide{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1267px) {
+    .t{
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    #tenthslide{
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 600px) {
+    .change_1{
+        border-right: none !important;
+    }
+}
